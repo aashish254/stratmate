@@ -303,7 +303,7 @@ Contributions, issues and feature requests are welcome!
 ```
 MIT License
 
-Copyright (c) 2025 Aashish
+Copyright (c) 2026 Aashish
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

@@ -1,0 +1,26 @@
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: "/apps/web"
+    schedule:
+      interval: weekly
+      day: monday
+    open-pull-requests-limit: 5
+  - package-ecosystem: npm
+    directory: "/apps/mobile"
+    schedule:
+      interval: weekly
+      day: monday
+    open-pull-requests-limit: 5
+  - package-ecosystem: npm
+    directory: "/shared/design-mode"
+    schedule:
+      interval: weekly
+      day: monday
+    open-pull-requests-limit: 5
+  - package-ecosystem: github-actions
+    directory: "/"
+    schedule:
+      interval: weekly
+      day: monday
+    open-pull-requests-limit: 5

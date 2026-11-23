@@ -825,7 +825,7 @@ function CustomPagination({ currentPage, totalPages, onPageChange }) {
 					/>
 				</PaginationItem>
 
-				{/* Display ellipsis if there are pages 
+				{/* Display ellipsis if there are pages
             before the first visible page */}
 				{startPage > 1 && (
 					<>

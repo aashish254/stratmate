@@ -11,7 +11,7 @@ index c737c93..f3edd25 100644
 +  },
    // #endregion
  } as ReactNativePublicAPI;
- 
+
 @@ -405,15 +408,4 @@ if (__DEV__) {
     * attempting to access Slider. */
    /* $FlowFixMe[invalid-export] This is intentional: Flow will error when
@@ -35,7 +35,7 @@ index 0000000..0000000 100644
 @@ -432,14 +432,16 @@ void ObjCTurboModule::performVoidMethodInvocation(
        TurboModulePerfLogger::asyncMethodCallExecutionStart(moduleName, methodName, asyncCallCounter);
      }
- 
+
      @try {
        [inv invokeWithTarget:strongModule];
      } @catch (NSException *exception) {
@@ -46,7 +46,7 @@ index 0000000..0000000 100644
      } @finally {
        [retainedObjectsForInvocation removeAllObjects];
      }
- 
+
      if (shouldVoidMethodsExecuteSync_) {
        TurboModulePerfLogger::syncMethodCallExecutionEnd(moduleName, methodName);
      } else {

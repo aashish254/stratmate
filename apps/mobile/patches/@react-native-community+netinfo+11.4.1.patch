@@ -5,11 +5,11 @@ index 8b514f4..9135364 100644
 @@ -7,28 +7,15 @@
   * @format
   */
- 
+
 -import {NativeEventEmitter} from 'react-native';
 +import { NativeEventEmitter } from 'react-native';
  import RNCNetInfo from './nativeModule';
- 
+
 -// Produce an error if we don't have the native module
 -if (!RNCNetInfo) {
 -  throw new Error(`@react-native-community/netinfo: NativeModule.RNCNetInfo is null. To fix this issue try these steps:

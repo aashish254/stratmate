@@ -7,7 +7,7 @@ index b2351e6..c638d23 100644
 -import { View, Text, PanResponder, Animated, ActivityIndicator, findNodeHandle } from 'react-native'
 +import { View, Text, PanResponder, Animated, ActivityIndicator } from 'react-native'
  import PropTypes from 'prop-types'
- 
+
  const arrowIcon =
 @@ -77,9 +77,9 @@ export default function RefreshControl({
        onStartShouldSetPanResponderCapture: () => false,

@@ -30,7 +30,7 @@ function useHandleStreamResponse({
   React.useEffect(() => {
     handleStreamResponseRef.current = handleStreamResponse;
   }, [handleStreamResponse]);
-  return React.useCallback((response) => handleStreamResponseRef.current(response), []); 
+  return React.useCallback((response) => handleStreamResponseRef.current(response), []);
 }
 
 export default useHandleStreamResponse;
